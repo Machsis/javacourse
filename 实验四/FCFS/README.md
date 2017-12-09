@@ -1,6 +1,6 @@
 
-#实验四——模拟实现FCFS(先来先服务)
-##实验内容
+# 实验四——模拟实现FCFS(先来先服务)
+## 实验内容
 * FCFS算法按照任务到达的顺序进行服务，先来先服务
 * 任务(Task)的ID、开始时间和服务时间由input.txt文件读入,这个任务列表文件首先由程序生成，每秒一个任务达到，服务时间由{6,2,1,3,9}这个集合中的数据随机获取。文件列表要包含至少100个任务。
 * 先要求实现如下要求的FCFS
@@ -18,7 +18,7 @@
 
 * 实验结果保存在input.txt中
 
-##代码分析
+## 代码分析
 Task的公共方法resolve接受三个从input.txt文件读取的int参数，并在方法内计算保存，最后打印出来
 ```javascript
   public void resolve(int id, int arrival, int service) throws IOException {
@@ -83,7 +83,7 @@ if(flag!=false){
 ```
 * 全文结束，感谢阅读，如有不妥，欢迎指出~
 
-##关于作者
+## 关于作者
 * 软工一班李明
 * 邮件(13799671597@163.com)
 * weibo: [@潮鳴ML](http://weibo.com/ihubo)

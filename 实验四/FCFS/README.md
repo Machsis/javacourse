@@ -86,4 +86,4 @@ if(flag!=false){
 ## 关于作者
 * 软工一班李明
 * 邮件(13799671597@163.com)
-* weibo: [@潮鳴ML](http://weibo.com/ihubo)
+* weibo: [@潮鳴ML](http://weibo.com/u/5671356526)

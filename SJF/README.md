@@ -1,24 +1,24 @@
 
-# ÊµÑéËÄ¡ª¡ªÄ£ÄâÊµÏÖFCFS(ÏÈÀ´ÏÈ·þÎñ)
-## ÊµÑéÄÚÈÝ
-* SJFËã·¨Ê×ÏÈµ÷¶ÈÒÑµ½´ïµÄÈÎÎñÖÐ£¬·þÎñÊ±¼ä×î¶ÌµÄÈÎÎñ£¬ÕâÀï²»ÒªÇóÊµÏÖÈÎÎñµÄÇÀÕ¼¡£
-* °´ÕÕFCFSËã·¨µÄÒªÇóÊµÏÖSJFËã·¨£¬Í¬ÑùÒªÇó´¦ÀíÁ½ÖÖÇé¿ö£º
-* µ±Ö»ÓÐÒ»¸ö´¦Àí¶ÓÁÐÊ±µÄÇé¿ö
-* µ±ÓÐÁ½¸ö´¦Àí¶ÓÁÐÊ±µÄÇé¿ö
+# å®žéªŒå››â€”â€”æ¨¡æ‹Ÿå®žçŽ°FCFS(å…ˆæ¥å…ˆæœåŠ¡)
+## å®žéªŒå†…å®¹
+* SJFç®—æ³•é¦–å…ˆè°ƒåº¦å·²åˆ°è¾¾çš„ä»»åŠ¡ä¸­ï¼ŒæœåŠ¡æ—¶é—´æœ€çŸ­çš„ä»»åŠ¡ï¼Œè¿™é‡Œä¸è¦æ±‚å®žçŽ°ä»»åŠ¡çš„æŠ¢å ã€‚
+* æŒ‰ç…§FCFSç®—æ³•çš„è¦æ±‚å®žçŽ°SJFç®—æ³•ï¼ŒåŒæ ·è¦æ±‚å¤„ç†ä¸¤ç§æƒ…å†µï¼š
+* å½“åªæœ‰ä¸€ä¸ªå¤„ç†é˜Ÿåˆ—æ—¶çš„æƒ…å†µ
+* å½“æœ‰ä¸¤ä¸ªå¤„ç†é˜Ÿåˆ—æ—¶çš„æƒ…å†µ
 
-* TaskÀà°üº¬ÏÂÁÐÊôÐÔ£º
-* taskID //ÈÎÎñID
-* arrivalTime //µ½´ïÊ±¼ä
-* serviceTime //·þÎñÊ±¼ä
-* startingTime //¿ªÊ¼Ê±¼ä
-* finishingTime //Íê³ÉÊ±¼ä=¿ªÊ¼Ê±¼ä+·þÎñÊ±¼ä
-* turnAroundTime //ÖÜ×ªÊ±¼ä=Íê³ÉÊ±¼ä-´ïµ½Ê±¼ä
-* weightTurnAround //´øÈ¨ÖÜ×ªÊ±¼ä=ÖÜ×ªÊ±¼ä/·þÎñÊ±¼ä
+* Taskç±»åŒ…å«ä¸‹åˆ—å±žæ€§ï¼š
+* taskID //ä»»åŠ¡ID
+* arrivalTime //åˆ°è¾¾æ—¶é—´
+* serviceTime //æœåŠ¡æ—¶é—´
+* startingTime //å¼€å§‹æ—¶é—´
+* finishingTime //å®Œæˆæ—¶é—´=å¼€å§‹æ—¶é—´+æœåŠ¡æ—¶é—´
+* turnAroundTime //å‘¨è½¬æ—¶é—´=å®Œæˆæ—¶é—´-è¾¾åˆ°æ—¶é—´
+* weightTurnAround //å¸¦æƒå‘¨è½¬æ—¶é—´=å‘¨è½¬æ—¶é—´/æœåŠ¡æ—¶é—´
 
-* ÊµÑé½á¹û±£´æÔÚinput.txtÖÐ
+* å®žéªŒç»“æžœä¿å­˜åœ¨input.txtä¸­
 
-## ´úÂë·ÖÎö
-TaskµÄ¹«¹²·½·¨resolve½ÓÊÜ´Óinput.txtÎÄ¼þ¶ÁÈ¡µÄTask¶ÔÏó£¬²¢ÔÚ·½·¨ÄÚ¼ÆËã±£´æ£¬×îºó´òÓ¡³öÀ´
+## ä»£ç åˆ†æž
+Taskçš„å…¬å…±æ–¹æ³•resolveæŽ¥å—ä»Žinput.txtæ–‡ä»¶è¯»å–çš„Taskå¯¹è±¡ï¼Œå¹¶åœ¨æ–¹æ³•å†…è®¡ç®—ä¿å­˜ï¼Œæœ€åŽæ‰“å°å‡ºæ¥
 ```javascript
   public void resolve(Task task)throws IOException{
 
@@ -37,14 +37,14 @@ TaskµÄ¹«¹²·½·¨resolve½ÓÊÜ´Óinput.txtÎÄ¼þ¶ÁÈ¡µÄTask¶ÔÏó£¬²¢ÔÚ·½·¨ÄÚ¼ÆËã±£´æ£¬×îºó
 
 	}
 ```
-¶ÁÈ¡Í¬Ê±×î´ó´¦Àí¶ÓÁÐÊý±£´æÔÚMax_TaskÖÐ
+è¯»å–åŒæ—¶æœ€å¤§å¤„ç†é˜Ÿåˆ—æ•°ä¿å­˜åœ¨Max_Taskä¸­
 ```javascript
 System.out.println("choose your Task_num");
     	Scanner scanner=new Scanner(System.in);
 		Max_Task=scanner.nextInt();
 		scanner.close();
 ```
-´´½¨²¢³õÊ¼»¯[]Task£¨´¦Àí¶ÓÁÐ£©¶ÔÏóÊý×é
+åˆ›å»ºå¹¶åˆå§‹åŒ–[]Taskï¼ˆå¤„ç†é˜Ÿåˆ—ï¼‰å¯¹è±¡æ•°ç»„
 ```javascript
 if(Max_Task<=0)
     		return;
@@ -52,7 +52,7 @@ if(Max_Task<=0)
 		for(i=0;i<Max_Task;i++)
 			task[i]=new Task();
 ```
-³õÊ¼·ÖÅÉÈÎÎñ£¬ÕâÀïÊÇÏÈÒ»´ÎÐÔÂÖÁ÷·ÖÅÉ×î´ó´¦Àí¶ÓÁÐÊýÈÎÎñ£¬±£Ö¤¶ÓÁÐÍÌÍÂÂÊ×î´ó
+åˆå§‹åˆ†æ´¾ä»»åŠ¡ï¼Œè¿™é‡Œæ˜¯å…ˆä¸€æ¬¡æ€§è½®æµåˆ†æ´¾æœ€å¤§å¤„ç†é˜Ÿåˆ—æ•°ä»»åŠ¡ï¼Œä¿è¯é˜Ÿåˆ—åžåçŽ‡æœ€å¤§
 ```javascript
 if (Max_Task != 1)
     		for (i = 0; i < Max_Task; i++) {
@@ -62,12 +62,12 @@ if (Max_Task != 1)
 				task[i].resolve(new Task(ID, arrivalTime, serviceTime));
 			}
 ```
-µ±Ã¿¸ö´¦Àí¶ÓÁÐ¶¼ÂúÊ±£¬ÕÒ³ö×î¿ìÍê³ÉµÄtask±àºÅ±£´æÔÚfastÖÐ,·ÖÅÉÈÎÎñ
+å½“æ¯ä¸ªå¤„ç†é˜Ÿåˆ—éƒ½æ»¡æ—¶ï¼Œæ‰¾å‡ºæœ€å¿«å®Œæˆçš„taskç¼–å·ä¿å­˜åœ¨fastä¸­,åˆ†æ´¾ä»»åŠ¡
 ```javascript
 if(flag!=false){
     		if(Max_Task==1)
 				task[0].resolve(ID, arrivalTime, serviceTime);
-			else{//ÕÒ³öfinishTime×îÐ¡µÄÄÇ¸ö
+			else{//æ‰¾å‡ºfinishTimeæœ€å°çš„é‚£ä¸ª
 				for(i=0;i<Max_Task-1;i++){
 					if(task[i+1].finishingTime<task[fast].finishingTime)
 						fast=i+1;
@@ -76,7 +76,7 @@ if(flag!=false){
 			}
 }
 ```
-×ÜÌåË¼Â·ÊÇÅÅÐò->·ÖÅÉÈÎÎñ->Ìí¼Ó½øµÈ´ýÊ±¼äÄÚµ½´ïµÄ¶ÓÁÐ£¬µ±ÏßÐÔÁÐ±ítaskComeÖÐÃ»ÓÐµÈ´ý¶ÓÁÐ¾Í½áÊøÑ­»·
+æ€»ä½“æ€è·¯æ˜¯æŽ’åº->åˆ†æ´¾ä»»åŠ¡->æ·»åŠ è¿›ç­‰å¾…æ—¶é—´å†…åˆ°è¾¾çš„é˜Ÿåˆ—ï¼Œå½“çº¿æ€§åˆ—è¡¨taskComeä¸­æ²¡æœ‰ç­‰å¾…é˜Ÿåˆ—å°±ç»“æŸå¾ªçŽ¯
 ```javascript
 while (!taskCome.isEmpty()) {
 			boolean is_not_resolve = true;
@@ -113,12 +113,12 @@ while (!taskCome.isEmpty()) {
 		}
 		input.close();
 ```
-##### ×Ü½á£º
-* ±¾ÎÄÃ»ÓÐÄ£Äâ°´Ê±¼ä¶ÁÈ¡£¬µ«ÏÔÊ¾½á¹ûÓ¦¸ÃÕýÈ·ÎÞÎó
-* Ò»¿ªÊ¼¶à¸ö¶ÓÁÐÍ¬Ê±·ÖÅäÈÎÎñÓÐÁ½ÖÖ·½·¨Ñ¡ÔñÀ§ÈÅÁËÎÒ£¬´Ë´¦ÊÇ²»¿¼ÂÇÏÈÇ°ÈÎÎñ½áÊø£¬¶øÊÇÍ¬Ê±·ÖÂú¿Õ¶ÓÁÐ
-* È«ÎÄ½áÊø£¬¸ÐÐ»ÔÄ¶Á£¬ÈçÓÐ²»Í×£¬»¶Ó­Ö¸³ö~
+##### æ€»ç»“ï¼š
+* æœ¬æ–‡æ²¡æœ‰æ¨¡æ‹ŸæŒ‰æ—¶é—´è¯»å–ï¼Œä½†æ˜¾ç¤ºç»“æžœåº”è¯¥æ­£ç¡®æ— è¯¯
+* ä¸€å¼€å§‹å¤šä¸ªé˜Ÿåˆ—åŒæ—¶åˆ†é…ä»»åŠ¡æœ‰ä¸¤ç§æ–¹æ³•é€‰æ‹©å›°æ‰°äº†æˆ‘ï¼Œæ­¤å¤„æ˜¯ä¸è€ƒè™‘å…ˆå‰ä»»åŠ¡ç»“æŸï¼Œè€Œæ˜¯åŒæ—¶åˆ†æ»¡ç©ºé˜Ÿåˆ—
+* å…¨æ–‡ç»“æŸï¼Œæ„Ÿè°¢é˜…è¯»ï¼Œå¦‚æœ‰ä¸å¦¥ï¼Œæ¬¢è¿ŽæŒ‡å‡º~
 
-## ¹ØÓÚ×÷Õß
-* Èí¹¤Ò»°àÀîÃ÷
-* ÓÊ¼þ(13799671597@163.com)
-* weibo: [@³±øQML](http://weibo.com/u/5671356526)
+## å…³äºŽä½œè€…
+* è½¯å·¥ä¸€ç­æŽæ˜Ž
+* é‚®ä»¶(13799671597@163.com)
+* weibo: [@æ½®é³´ML](http://weibo.com/u/5671356526)

@@ -12,7 +12,8 @@
 *.class  
 *.jar  
   
-# generated files  
+# generated files
+.settings/  
 bin/  
 gen/  
   

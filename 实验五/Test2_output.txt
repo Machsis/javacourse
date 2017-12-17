@@ -1,0 +1,45 @@
+FileName		LastModified				lenth
+$360Section		Sun Dec 11 19:06:11 CST 2016		4096
+$Recycle.Bin		Sat Dec 19 19:22:04 CST 2015		0
+$Windows.~GWX		Sun Nov 29 22:30:19 CST 2015		0
+$Windows.~WS		Sun Nov 29 22:30:22 CST 2015		0
+Boot		Tue Oct 07 03:01:06 CST 2014		8192
+Documents and Settings		Thu Dec 01 21:07:41 CST 2016		4096
+EzYun		Thu Aug 11 15:09:56 CST 2016		0
+GameDownload		Wed Dec 06 20:15:42 CST 2017		0
+Intel		Tue Mar 03 23:14:25 CST 2015		0
+MSOCache		Thu Jan 01 08:00:00 CST 1970		0
+OneDriveTemp		Thu Feb 04 18:11:01 CST 2016		0
+PerfLogs		Sat Jul 16 19:47:47 CST 2016		0
+Program Files		Tue Oct 24 23:04:48 CST 2017		12288
+Program Files (x86)		Wed Dec 06 19:20:09 CST 2017		28672
+ProgramData		Tue Dec 12 19:26:31 CST 2017		28672
+QMDownload		Mon Dec 14 17:12:00 CST 2015		0
+QQDownload		Wed Oct 12 16:53:49 CST 2016		0
+QQPCMgr		Sat Sep 23 15:21:07 CST 2017		0
+QQVipDownload		Thu Jun 01 18:49:26 CST 2017		0
+Recovery		Thu Jan 01 08:00:00 CST 1970		0
+SymCache		Sun Jul 09 15:38:24 CST 2017		0
+System Volume Information		Thu Jan 01 08:00:00 CST 1970		16384
+Tencent		Fri Aug 26 08:59:03 CST 2016		0
+Users		Thu Dec 01 21:07:41 CST 2016		4096
+WeGame		Sat Sep 09 14:27:44 CST 2017		0
+Windows		Sat Dec 09 15:25:59 CST 2017		49152
+dlcache		Tue Dec 20 00:14:59 CST 2016		0
+eSupport		Tue Mar 03 23:38:11 CST 2015		0
+found.000		Thu Jan 01 08:00:00 CST 1970		0
+test_game		Sat Apr 30 17:56:00 CST 2016		4096
+AMTAG.BIN		Fri Jul 08 20:17:38 CST 2016		1024
+BOOTNXT		Fri Oct 30 15:18:34 CST 2015		1
+D99.mdb		Sun Jul 09 16:13:28 CST 2017		471040
+ImbaMallLog.txt		Tue Oct 25 17:49:02 CST 2016		0
+LOLCfg.ini		Sun Dec 13 17:29:16 CST 2015		56
+Tool.ini		Fri Mar 25 18:49:26 CST 2016		258
+bootmgr		Tue Oct 07 02:59:28 CST 2014		404250
+bootsqm.dat		Thu Mar 09 20:52:46 CST 2017		12928
+data.txt		Thu Nov 09 20:22:35 CST 2017		98
+hiberfil.sys		Thu Jan 01 08:00:00 CST 1970		1675776000
+pagefile.sys		Thu Jan 01 08:00:00 CST 1970		2013265920
+redirect_tmp.dat		Mon Mar 27 10:51:06 CST 2017		30
+swapfile.sys		Thu Jan 01 08:00:00 CST 1970		268435456
+winencrypt.exe		Tue Feb 23 10:22:42 CST 2016		70656

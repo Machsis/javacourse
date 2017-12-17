@@ -1,0 +1,7 @@
+No bufferedReader
+start time:0
+finished time:109
+bufferedReader
+No bufferedReader
+start time:0
+finished time:31

@@ -1,0 +1,5 @@
+from Thread-0 sum=325
+from Thread-3 sum=2525
+from Thread-1 sum=3475
+from Thread-2 sum=5050
+total result: 5050
